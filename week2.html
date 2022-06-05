@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>week 2</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body class="week2body">
+    <div class="week2">
+        <h1 class="title">Неделя 2</h1>
+        <h2>Чему обучился за неделю 29.05.22-05.06.22:</h2>
+        <ul>
+            <li>Html-формы</li>
+            <li>Псевдоклассы</li>
+            <li>Границы</li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <p>Практические примеры, которые отсутствуют ниже приведены на <a href="index.html">главной странице</a></p>
+        <hr>
+        <h2>Пример формы регистрации:</h2>
+        <div class="registration-form">
+            <h2>Регистрация</h2>
+            <form action="/" method="post">
+                <div class="form-group">
+                    <input class="input" type="text" name="name" placeholder="Введите имя">
+                </div>
+                <div class="form-group">
+                    <input class="input" type="email" name="email" placeholder="Введите email">
+                </div>
+                <div class="form-group">
+                    <input class="input" type="password" name="password" placeholder="Введите пароль">
+                </div>
+                <div class="form-group">
+                    <input class="input" type="password" name="password" placeholder="Подтвердите пароль">
+                </div>
+                <div class="form-group">
+                    <select class="select" name="city">
+                        <option value="moscow">Москва</option>
+                        <option value="saint-peterburg">Санкт-Петербург</option>
+                        <option value="kazan">Казань</option>
+                        <option value="novosibirsk">Новосибирск</option>
+                    </select>
+                </div>
+                <div class="checkbok">
+                    <input type="checkbox" name="rules" id="rules">
+                    <label for="rules">Принимаю правила</label>
+                </div>
+                <button class="btn" type="submit">Зарегистрироваться</button>
+            </form>
+        </div>
+    </div>

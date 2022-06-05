@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+/*index.html*/
+
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.puk {
+    width: 750px;
+    margin: auto;
+}
+
+.avatar{
+    border-radius: 5px;
+}
+
+.skills {
+    border-radius: 10px;
+}
+
+/*week.html*/
+
+.title {
+    text-align: center;
+}
+
+.lifetable {
+    width: 50%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lifetable td {
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.lifetable th {
+    padding: 5px;
+}
+
+.background {
+    width: 25%;
+    height: 300px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 30px 200px;
+    background-image: url("../img/e31bcbd0-6278-11ec-afa0-7d720f06f23f.jpg");
+    background-size: cover;
+}
+
+.weeks-list {
+    font-weight: bold;
+    padding: 30px 10px;
+    border-radius: 15px;
+}
+
+.weeks-list a:visited {
+    color: blue;
+}
+
+.week2body {
+    background-color: black;
+    color: white;
+}
+
+.week2body a {
+    color: blue;
+}
+
+.week2body a:visited {
+    color: #ff00f7;
+}
+
+.registration-form {
+    background-color: aquamarine;
+    color: black;
+    width: 50%;
+    margin: auto;
+    padding: 15px 0;
+    border-radius: 20px;
+}
+
+.registration-form h2 {
+    margin: 0 0 15px;
+    text-align: center;
+}
+
+.input {
+    display: block;
+    margin: auto;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 0;
+    font-family: inherit;
+    margin-bottom: 15px;
+}
+
+.input:focus {
+    outline: 0;
+}
+
+.select {
+    display: block;
+    margin: auto;
+    padding: 4px 15px;
+    width: 189.6px;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.select:focus {
+    outline: 0;
+}
+
+.checkbok {
+    width: 200px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    padding: 5px 15px;
+    border: 0;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
